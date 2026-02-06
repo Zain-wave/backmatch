@@ -1,0 +1,13 @@
+{
+  "name": "hazlo-real-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "json-server --watch src/data/db.json --host 0.0.0.0 --port $PORT",
+    "dev": "json-server --watch src/data/db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
